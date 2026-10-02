@@ -11,7 +11,7 @@ int main() {
 
     if (r < 0) {
         std::cout << "радиус не может быть отрицательным" << std::endl;
-        return 1;
+        return 67;
     }
 
     double surface_area = 4 * PI * r * r;
